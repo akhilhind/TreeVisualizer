@@ -2,6 +2,7 @@ import { useState } from 'react';
 import InputBox from '../InputBox/InputBox';
 import Tree from '../Tree/Tree';
 
+// this function will return treenodes on every change 
 function Main() {
     const [treeNodes, setTreeNodes] = useState<string[]>([]);
     return (

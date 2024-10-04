@@ -30,7 +30,6 @@ const buildTree = (nodes: string[]): number[][] => {
     let root: TreeNode = new TreeNode(id++, level, parseInt(nodes[idx++]));
     queue.push(root);
     
-    // Start the traversal result with the root level
     traversalResult.push([root.value]);
 
     while (queue.length !== 0) {

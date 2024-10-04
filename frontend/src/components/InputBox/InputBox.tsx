@@ -2,6 +2,7 @@ import React from 'react';
 
 type AllowedType = string;
 
+// interface for input box
 interface InputBoxProps {
     onInputChange: (value: string[]) => void;
 }
